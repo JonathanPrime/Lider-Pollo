@@ -1481,27 +1481,6 @@ input.whats-input[type=text]:focus {
     object-fit: scale-down;
   }
 
-  .home {
-    background: none;
-    grid-template-columns: repeat(auto-fit, minmax(22rem, auto));
-  }
-
-  .home-1 {
-    width: 100%;
-    min-height: 100vh;
-    display: flex;
-    align-items: center;
-    gap: 3.5rem;
-    z-index: 1;
-    background: url(../images/banner.png) no-repeat;
-    background-size: cover;
-    flex-wrap: wrap;
-    background-position: center;
-    justify-items: center;
-    flex-direction: row;
-    justify-content: space-evenly;
-  }
-
   .home .content h3 {
     font-size: 2.5rem;
   }
@@ -1574,6 +1553,28 @@ input.whats-input[type=text]:focus {
   .heading .sub-menu {
     font-size: 4rem;
   }
+}
+
+.loader-container {
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 10000;
+  background: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  width: 100vw;
+}
+
+.loader-container img {
+  height: 291px;
+  width: 441px;
+}
+
+.loader-container.fade-out {
+  top: -120%;
 }
 
 /*# sourceMappingURL=style.css.map */
