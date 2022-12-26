@@ -1463,6 +1463,9 @@ input.whats-input[type=text]:focus {
 }
 
 @media (max-width: 768px) {
+  .menu {
+    background-size: cover;
+  }
   .domicilio .dom-content .dom_description {
     text-align: center;
   }
