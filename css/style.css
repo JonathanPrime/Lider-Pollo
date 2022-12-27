@@ -65,7 +65,7 @@ section {
   font-family: 'Billbreak';
   font-size: 8rem;
   margin-top: -4rem;
-  color: var(--white);
+  color: var(--black);
 }
 
 .heading .sub-menu {
@@ -73,7 +73,7 @@ section {
   font-family: 'Poppins-Bold';
   text-transform: uppercase;
   font-size: 6.8rem;
-  color: var(--palet-2);
+  color: var(--palet-1);
 }
 
 p {
@@ -190,11 +190,11 @@ img {
 .shop {
   font-size: 7px;
   cursor: pointer;
-  color: var(--palet-1);
+  color: var(--palet-2);
 }
 
 .shop:hover {
-  color: var(--palet-1)
+  color: var(--black)
 }
 
 .phone {
@@ -277,7 +277,7 @@ img {
 }
 
 .service {
-  background: var(--palet-1) url(../images/vectores/patron-2.svg) repeat;
+  background: var(--palet-2) url(../images/vectores/patron-2.svg) repeat;
   background-size: cover;
   background-position: center;
   padding: 2rem 9% !important;
@@ -290,7 +290,6 @@ img {
   grid-template-columns: repeat(auto-fit, minmax(31rem, 1fr));
   gap: 2rem;
   margin: 0rem 1rem 0rem 1rem;
-  background: var(--black);
   border-radius: 14rem;
 }
 
@@ -304,8 +303,8 @@ img {
   width: 7rem;
   line-height: 7rem;
   font-size: 2.5rem;
-  color: var(--black);
-  background: var(--palet-2);
+  color: var(--white);
+  background: var(--palet-1);
   margin-bottom: 1rem;
   border-radius: 50%;
 }
@@ -316,7 +315,7 @@ img {
   font-size: 4rem;
 
   text-transform: uppercase;
-  color: var(--white);
+  color: var(--black);
  
 }
 
@@ -324,21 +323,21 @@ img {
   padding: 1rem 0;
   margin-top: -4rem;
   font-size: 6rem;
-  color: var(--palet-2);
+  color: var(--palet-1);
   font-family: 'Billbreak';
 }
 
 .service-box .box p {
   font-size: 1.5rem;
   line-height: 2;
-  color: var(--white);
+  color: var(--black);
 }
 
 /*========== MENU ==========*/
 /*========== MENU ==========*/
 
 .menu {
-  background: var(--white) url(../images/mesa-back-01.jpg) repeat;
+  background: var(--white) url(../images/vectores/patron-menu.png) repeat;
   background-size: contain;
   background-position: center;
   padding: 2rem 9% !important;
@@ -381,8 +380,9 @@ img {
 
 .menu__name {
   font-size: 3.5rem !important;
+  font-family: 'Poppins-Bold' !important;
   text-transform: uppercase !important;
-  color: var(--white) !important;
+  color: var(--palet-1) !important;
   margin-top: 1rem !important;
 }
 
@@ -418,7 +418,7 @@ img {
 
 .menu__detail {
   font-size: 2.5rem !important;
-  color: var(--white) !important;
+  color: var(--black) !important;
   margin: 1rem !important;
 }
 
@@ -647,7 +647,7 @@ img {
 /* end own about */
 
 .reviews {
-  background: var(--palet-1) url(../images/vectores/patron-2.svg) repeat;
+  background: var(--palet-2) url(../images/vectores/patron-2.svg) repeat;
   background-size: cover;
   background-position: center;
   padding: 2rem 9% !important;
@@ -657,13 +657,13 @@ img {
   font-family: 'Billbreak';
   font-size: 8rem;
   margin-top: -2.5rem;
-  color: var(--white);
+  color: var(--black);
 }
 
 .heading .script-review {
   font-family: 'Poppins-Bold';
   font-size: 5rem;
-  color: var(--black);
+  color: var(--palet-1);
 }
 
 .heading .contact-title {
@@ -687,7 +687,6 @@ img {
   grid-template-columns: repeat(auto-fit, minmax(31rem, 1fr));
   gap: 2rem;
   margin: 0rem 1rem 0rem 1rem;
-  background: var(--black);
   border-radius: 14rem;
 }
 
@@ -708,13 +707,13 @@ img {
   font-size: 3rem;
   text-transform: uppercase;
   font-family: 'Poppins-Bold';
-  color: var(--white);
+  color: var(--black);
 }
 
 .reviews .box-container .box p {
   font-size: 1.8rem;
   line-height: 2;
-  color: var(--white);
+  color: var(--black);
   padding: 1rem 0;
 }
 
@@ -1463,9 +1462,6 @@ input.whats-input[type=text]:focus {
 }
 
 @media (max-width: 768px) {
-  .menu {
-    background-size: cover;
-  }
   .domicilio .dom-content .dom_description {
     text-align: center;
   }
